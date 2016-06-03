@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:state_pressed="true"
+            android:id="@+id/navItem1"
+            android:icon="@drawable/ic_action_location_found_dark"
+            android:title="注册"
+            android:orderInCategory="1"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/navItem2"
+            android:icon="@drawable/ic_action_location_found_dark"
+            android:title="登录"
+            android:orderInCategory="2"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/navItem3"
+            android:icon="@drawable/menu_note"
+            android:title="笔记"
+            android:orderInCategory="3"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/navItem4"
+            android:icon="@drawable/menu_chat"
+            android:title="问答"
+            android:orderInCategory="4"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/navItem5"
+            android:icon="@drawable/menu_about"
+            android:title="关于"
+            android:orderInCategory="5"
+            app:showAsAction="always"/>
+    </group>
+
+</menu>
